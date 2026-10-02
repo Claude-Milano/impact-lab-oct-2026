@@ -1,0 +1,81 @@
+name: Submission
+description: Submit your team's project. One per team, by 16:00.
+title: "[Submission] <team name>"
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for building with us today. Fill in every required field. You can edit this issue until 16:00.
+        Remember: **no personal data**, anywhere.
+  - type: input
+    id: team
+    attributes:
+      label: Team name
+    validations:
+      required: true
+  - type: textarea
+    id: members
+    attributes:
+      label: Team members
+      description: One per line, name and GitHub handle.
+      placeholder: |
+        Giulia Rossi · @giuliarossi
+        Marco Bianchi · @mbianchi
+    validations:
+      required: true
+  - type: dropdown
+    id: track
+    attributes:
+      label: Track
+      options:
+        - 01 · Welcome journey for people arriving in Milan
+        - 02 · One procedure, assisted from start to submission
+        - 03 · From inside City Hall, the people at the counter
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Public repo URL
+      placeholder: https://github.com/<you>/<project>
+    validations:
+      required: true
+  - type: input
+    id: video
+    attributes:
+      label: Demo video URL (two minutes, optional but strongly recommended)
+  - type: textarea
+    id: pitch
+    attributes:
+      label: One-line pitch
+      description: Who is it for, and what changes for them?
+    validations:
+      required: true
+  - type: textarea
+    id: claude
+    attributes:
+      label: Where does Claude work when someone uses this?
+      description: Model, prompts, tools or MCP servers it calls, what it decides and what a human confirms. Same content as the section in your README.
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: City data and sources used
+      description: Dataset slugs, pages, or knowledge from domain experts.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: The repo is public and has an open source licence (MIT or Apache-2.0)
+          required: true
+        - label: The README follows the template and includes "Where Claude works"
+          required: true
+        - label: There is no personal data and no API key in the repo, screenshots or video
+          required: true
+        - label: No code was written before 10:00 on 3 October
+          required: true
