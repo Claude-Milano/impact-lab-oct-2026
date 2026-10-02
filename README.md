@@ -63,7 +63,7 @@ Teams of 4–5 · no pre-work, code starts at 10:00 · open source on GitHub, do
 
 ## Prizes
 
-1st place: **Claude Max 20x for the whole team** (up to 5 people). Jury: Riccardo Colombo (Anthropic) and representatives of the Comune di Milano.
+1st place: **Claude Max 20x for the whole team** (up to 5 people). Jury: Riccardo Colombo (Anthropic), Silvia Castellanza and Sara Belli (Comune di Milano).
 
 ## After today
 

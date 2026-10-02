@@ -56,7 +56,7 @@ Each criterion is scored 0–5 by each juror. Two criteria count double. Maximum
 
 ## Jury
 
-Riccardo Colombo (Anthropic) and representatives of the Comune di Milano.
+Riccardo Colombo (Anthropic), Silvia Castellanza and Sara Belli (Comune di Milano).
 
 ## Process
 
